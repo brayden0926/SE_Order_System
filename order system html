@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="restuarant order" content="width=device-width,initial=scale=1.0">
+    <title>ordersystem</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header class="header">
+        <a href="/" class="logo">高雄師範大學法式料理餐廳<span class="green">NKNUFranchCuisine</span></a>
+        <nav class="navbar">
+            <a href="#homepage">Home</a>
+            <a href="#services">Services</a>
+          </nav>
+        <!-- 餐廳logo -->
+        <div class="restuarantlogo">
+            <img src="https://www.simplemost.com/wp-content/uploads/2016/09/healthy-food.jpeg" alt="" />
+          </div>
+</header>
+  
+    <!-- 主畫面-->
+    <section class="homepage" id="homepage">
+        <div class="content">
+          <h1> <span class="green">餐廳介紹</span>提供的服務</h1>
+          <p>
+           高雄師範大學法式料理餐廳
+           是一個提供學生平價且優質的餐廳
+           學生可在學校內想用便宜且有品質的精美法餐
+           讓學生在課後有一個完善的空間享受美食
+           每份套餐均一價688/
+          </p>
+        </div>
+      </section>
+  
+    <!-- 服務 -->
+    <section class="services" id="services">
+        <div class="top">
+          <h2><span class="green">菜單</span> 選擇想要的餐點</h2>
+         <p>
+            1.前菜Appetizer(鮮蝦優格時蔬Shrimp yogur salad <input type="box" value="number">,凱薩沙拉Caesar salad <input type="box" value="number">,當季水果沙拉Seasoning fruit salad <input type="box" value="number">)
+            <div></div>
+            2.麵包Bread(焗烤蘑菇方塊麵包Grantined mushroom toast<input type="box" value="number">,蕈菇滑蛋貝果Mushroom begal with egg<input type="box" value="number">)
+            <div></div>
+            3.濃湯Soup(羅宋牛肉湯Beef soup<input type="box" value="number">,義式海鮮濃湯Seafood consomme<input type="box" value="number">,南瓜濃湯Pumpkim soup)<input type="box" value="number">)
+            <div></div>
+            4.主餐Main meal(嫩烤鴨胸Duck chest<input type="box" value="number">,菲力牛排Steak filet<input type="box" value="number">,香煎鱈魚Cod filet<input type="box" value="number">)
+            <div></div>
+            5.飲料Drinks(綠茶Green tea<input type="box" value="number"onclick=”print(this)”>
+      ,紅茶Black tea<input type="box" value="number">,奶茶Milk tea<input type="box" value="number">)
+          </p>
+        </div>
+        <a href="" class="btn">送出訂單</a>
+          <section>
+       
+      </section>
+    <!-- Scripts -->
+    <script src="restuarant's js.js"></script>
+</body>
+</html>
